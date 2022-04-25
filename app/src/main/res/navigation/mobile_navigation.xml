@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mrpasswords.ui.passwords.PasswordsFragment"
+        android:label="@string/menu_passwords"
+        tools:layout="@layout/fragment_passwords" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_GPasswords"
+            app:destination="@id/nav_GPasswords"
+            app:enterAnim="@android:anim/cycle_interpolator" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_GPasswords"
+        android:name="com.example.mrpasswords.ui.gpasswords.GPasswordsFragment"
+        android:label="@string/menu_gpassword"
+        tools:layout="@layout/fragment_gpasswords" />
+</navigation>

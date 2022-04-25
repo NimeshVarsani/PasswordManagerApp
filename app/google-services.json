@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1020400109791",
+    "firebase_url": "https://passwords-839fe-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "passwords-839fe",
+    "storage_bucket": "passwords-839fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020400109791:android:bea46eb8950f05bae3c16a",
+        "android_client_info": {
+          "package_name": "com.example.mrpasswords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020400109791-p859n654nhspg4ilijrm0laosbkcuhc5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mrpasswords",
+            "certificate_hash": "1e6946e2d8d925f33616c6fb025f7f4ec73e66ea"
+          }
+        },
+        {
+          "client_id": "1020400109791-6ao91o86ejm6ct36pt4kv3c5n7dh9ild.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvIfeWlhqe9INA-YkHnoyAEKEoVBWyRMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020400109791-6ao91o86ejm6ct36pt4kv3c5n7dh9ild.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

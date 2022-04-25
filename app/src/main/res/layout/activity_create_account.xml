@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount"
+    android:paddingStart="40dp"
+    android:paddingEnd="30dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Enter Your Details Here"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/iuname"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:textColorHint="#757575"
+        app:errorEnabled="true"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxBackgroundMode="outline"
+        app:boxBackgroundColor="@color/white">
+
+        <EditText
+            android:id="@+id/nuname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="15"
+            android:hint="@string/name"
+            android:inputType="text"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/iemail"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#757575"
+        app:errorEnabled="true"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxBackgroundMode="outline"
+        app:boxBackgroundColor="@color/white">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:ems="15"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ipass"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#757575"
+        app:passwordToggleEnabled="true"
+        app:errorEnabled="true"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxBackgroundMode="outline"
+        app:boxBackgroundColor="@color/white">
+
+        <EditText
+            android:id="@+id/npass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="15"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ipas"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#757575"
+        app:passwordToggleEnabled="true"
+        app:errorEnabled="true"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxBackgroundMode="outline"
+        app:boxBackgroundColor="@color/white">
+
+        <EditText
+            android:id="@+id/cnpass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:ems="15"
+            tools:ignore="SpeakableTextPresentCheck"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="50dp"
+        android:minHeight="48dp"
+        android:text="@string/Button_sign_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nRepass"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>
